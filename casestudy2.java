@@ -83,12 +83,12 @@ public class casestudy2 {
             int pilihMenu = sc.nextInt();
             
             if (pilihMenu == 1) {
-                takeOrder(sc); // Call method to take the order
+                takeOrder(sc); 
             } else if (pilihMenu == 2) {
-                showOrders(sc); // Call method to show orders
+                showOrders(nama, nomorMeja); 
             } else if (pilihMenu == 3) {
-                Exit(); // Call method to exit
-                break; // Exit the loop and end the program
+                Exit();
+                break;
             } else {
                 System.out.println("Pilihan tidak valid. Silakan pilih kembali.");
             }
